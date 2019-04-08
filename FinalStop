@@ -1,0 +1,162 @@
+
+    <header role="banner">
+      <div class="top-bar">
+        <div class="container">
+          <div class="row">
+            <div class="col-9 social">
+              <a href="#"><span class="fa fa-twitter"></span></a>
+              <a href="#"><span class="fa fa-facebook"></span></a>
+              <a href="#"><span class="fa fa-instagram"></span></a>
+            </div>
+            <div class="col-3 search-top">
+              <!-- <a href="#"><span class="fa fa-search"></span></a> -->
+              <form action="#" class="search-top-form">
+                <span class="icon fa fa-search"></span>
+                <input type="text" id="s" placeholder="Type keyword to search...">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container logo-wrap">
+        <div class="row pt-5">
+          <div class="col-12 text-center">
+            <a class="absolute-toggle d-block d-md-none" data-toggle="collapse" href="#navbarMenu" role="button" aria-expanded="false" aria-controls="navbarMenu"><span class="burger-lines"></span></a>
+            <h1 class="site-logo"><a href="index.html">Next Stop London</a></h1>
+          </div>
+        </div>
+      </div>
+
+      <nav class="navbar navbar-expand-md  navbar-light bg-light">
+        <div class="container">
+
+
+          <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="category.html" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Travel</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown04">
+                  <a class="dropdown-item" href="category.html">Public Transport</a>
+                  <a class="dropdown-item" href="category.html">Private Transport</a>
+                  <a class="dropdown-item" href="category.html">Walking</a>
+                </div>
+
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="category.html" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Restaurants</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown05">
+                  <a class="dropdown-item" href="category.html">American</a>
+                  <a class="dropdown-item" href="category.html">Asian</a>
+                  <a class="dropdown-item" href="category.html">European</a>
+                  <a class="dropdown-item" href="category.html">Caribbean</a>
+                  <a class="dropdown-item" href="category.html">Indian</a>
+                </div>
+
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+
+          </div>
+        </div
+      </nav>
+    </header>
+    <!-- END header -->
+
+    <section class="site-section pt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+
+            <div class="owl-carousel owl-theme home-slider">
+              <div>
+                <a href="blog-single.html" class="a-block d-flex align-items-center height-lg" style="background-image: url('images/img_1.jpg'); ">
+                  <div class="text half-to-full">
+                    <div class="post-meta">
+                      <span class="category">Lifestyle</span>
+                      <span class="mr-2">March 15, 2018 </span> &bullet;
+                      <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
+                    </div>
+                    <h3>Discover more today</h3>
+                    <p>London offers an array of options to ensure that you have a fantastic experience!</p>
+                  </div>
+                </a>
+              </div>
+              <div>
+                <a href="blog-single.html" class="a-block d-flex align-items-center height-lg" style="background-image: url('images/img_2.jpg'); ">
+                  <div class="text half-to-full">
+                    <div class="post-meta">
+                      <span class="category">Attractions</span>
+                      <span class="mr-2">April 8, 2019 </span> &bullet;
+                    </div>
+                    <h3>Discover London Today</h3>
+                    <p>Your trip to London starts right here!</p>
+                  </div>
+                </a>
+              </div>
+              <div>
+                <a href="blog-single.html" class="a-block d-flex align-items-center height-lg" style="background-image: url('images/img_3.jpg'); ">
+                  <div class="text half-to-full">
+                    <div class="post-meta">
+                      <span class="category">Restaurants</span>
+                      <span class="mr-2">March 15, 2018 </span> &bullet;
+                      <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
+                    </div>
+                    <h3>Whatever your heart desires be sure to find it here in London</h3>
+                    <p>Don't forget to book your tables here with us!</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <a href="blog-single.html" class="a-block d-flex align-items-center height-md" style="background-image: url('images/img_2.jpg'); ">
+              <div class="text">
+                <div class="post-meta">
+                  <span class="category">Attractions</span>
+                  <span class="mr-2">April 8, 2019 </span> &bullet;
+                </div>
+                <h3>Fancy some seeing the queen or visiting some of Londons top attractions?</h3>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a href="blog-single.html" class="a-block d-flex align-items-center height-md" style="background-image: url('images/img_3.jpg'); ">
+              <div class="text">
+                <div class="post-meta">
+                  <span class="category">Travel</span>
+                  <span class="mr-2">April 8, 2019 </span> &bullet
+                </div>
+                <h3>How will you get around London?</h3>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a href="blog-single.html" class="a-block d-flex align-items-center height-md" style="background-image: url('images/img_4.jpg'); ">
+              <div class="text">
+                <div class="post-meta">
+                  <span class="category">About Us</span>
+                  <span class="mr-2">April 8, 2019 </span> &bullet;
+                </div>
+                <h3>Find out more about who we are!</h3>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+
+    </section>
+    <!-- END section -->
